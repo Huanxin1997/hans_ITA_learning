@@ -38,6 +38,7 @@ function calculateScore(data) {
 
 // 展示测试结果
 function showTestResult(yourAnswer, correctAnswer, score) {
+    $("#result").empty();
     let tbody = "";
     for (let i in correctAnswer) {
         tbody += `<tr>
@@ -58,5 +59,5 @@ function showTestResult(yourAnswer, correctAnswer, score) {
             </thead>
             <tbody>${tbody}</tbody>
         <table>`;
-    $("form").after(dom);
+    $("#result").append(dom);
 }
