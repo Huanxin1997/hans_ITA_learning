@@ -1,0 +1,50 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+header {
+    height: 268px;
+    padding: 34px;
+    color: #fff;
+    background-image: url("./img/science.jfif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.user_info {
+    display: flex;
+    justify-content: center;
+}
+.user_info_item {
+    width: 167px;
+    margin: 24px 0;
+}
+.user_info_item div {
+    padding: 5px 0;
+}
+.avatar {
+    padding: 8px;
+}
+.icon_box {
+    padding: 12px;
+    width: 180px;
+    background-color: #006ae4;
+    color: #fff;
+    text-align: right;
+}
+.user_info_title {
+    margin-left: 8px;
+    line-height: 45px;
+    font-size: 18px;
+    color: #006ae4;
+}
+header button {
+    margin: 0 14px;
+    padding: 12px;
+    width: 140px;
+    border: none;
+    outline: none;
+    border-radius: 8px;
+}
+button:hover {
+    border: 1px solid rgb(238, 100, 100);
+}
